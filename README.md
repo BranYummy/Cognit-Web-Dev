@@ -1,3 +1,3 @@
 # Cognit Web Project
 
-Lets get this started!!!!
+Please figure out the Back-end sections!!
