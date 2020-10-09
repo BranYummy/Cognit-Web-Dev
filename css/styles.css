@@ -1,0 +1,270 @@
+
+/* Intro Home Page*/
+
+body{
+  background-color: #f3f3f3;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  margin: 0;
+}
+h1{
+  font-family: Montserrat;
+  font-weight:bold;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+h2{
+  font-family: Montserrat;
+  font-weight:bold;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+h3{
+  font-family: 'Montserrat', sans-serif;
+
+}
+a{
+  font-family: 'Montserrat', sans-serif;
+}
+p{
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* nav section */
+
+.navbar{
+  padding-bottom: 2px;
+}
+.nav-brand-mag{
+  margin-left: 5%;
+}
+.nav-mag{
+  margin-right: 8%;
+}
+.nav-i-mag{
+    padding:10%;
+}
+.nav-i-mag-ul{
+  padding:10%;
+  box-shadow: 0 3px  #007bff;
+}
+.nav-i-mag-ul:hover{
+;
+  padding:10%;
+  box-shadow: 1px 4px 3px #007bff;
+}
+
+.container-fluid{
+    padding:auto 5%;
+}
+.nav-border-shadow{
+  box-shadow: 0 0.5px 5px #888888;
+}
+.butn {
+   -webkit-border-radius: 40px;
+   -moz-border-radius: 40px;
+   border-radius: 30px;
+   color: #FFFFFF;
+   font-family: 'Montserrat', sans-serif;
+   font-size: 18px;
+   font-weight: 100;
+   padding: 18px;
+   background-color: #1FE362;
+   -webkit-box-shadow: 0 3px 7px 0 #92E5AA;
+   -moz-box-shadow: 0 3px 7px 0 #92E5AA;
+   box-shadow: 0 3px 7px 0 #92E5AA;
+   text-shadow: 1px 1px 20px #000000;
+   border: solid #1FE362 1px;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+}
+
+.butn:hover {
+   background: #19EB61;
+   border: solid #1FE362 1px;
+   -webkit-border-radius: 80px;
+   -moz-border-radius: 80px;
+   border-radius: 80px;
+   text-decoration: none;
+}
+.info-row{
+  text-align: left;
+  margin:100px auto 100px;
+  width: 80%;
+}
+.clc-row{
+  padding-top: 100px;
+  padding-bottom: 100px;
+
+}
+.cwe-row{
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.gc-row{
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+/* image section */
+
+.clc-img{
+  float:right;
+  margin-left: 30px;
+}
+.cwe-img {
+  border-radius: 100%;
+  width: 30%;
+  float:left;
+  margin-right: 30px;
+}
+.gc-img{
+  width: 40%;
+  float:right;
+  margin-left: 30px;
+}
+
+/* carousel */
+
+#icaro{
+  text-align: center;
+}
+.carousel-inner{
+  width: 100%;
+}
+.carousel-caption{
+
+}
+.cc1{
+  color: skyblue;
+}
+.cc2{
+  color: skyblue;
+  width:30%;
+  margin-bottom: 45%;
+}
+.cc3{
+  color: #24486b;
+  width:60%;
+  margin-bottom: 20%;
+}
+.cc4{
+  color: #24486b;
+  width:60%;
+  margin-bottom: 45%;
+  margin-left: 8%;
+}
+.cc5{
+  color: #24486b;
+  width:60%;
+  margin-bottom: 55%;
+}
+
+/* bottom section */
+
+.bot{
+  padding-top: 4%;
+}
+.footer-link{
+  padding: 10px;
+}
+.cred{
+  margin-top: 20px;
+  margin-bottom: 0;
+}
+
+
+
+/* Team Page */
+
+
+
+.card-img{
+  display: block;
+  width: 40%;
+  margin: auto;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+.bot-icon{
+  color: gray;
+  padding: 2%;
+}
+
+
+
+/* login Page */
+
+
+.title{
+  color: #007bff;
+}
+.container-lp{
+  background-color: white;
+  width: 30%;
+  margin: 6% auto;
+  padding: 4% 0 8%;
+}
+.login-content input{
+  padding: 3%;
+  margin: 2%;
+  border: 1px solid lightgray;
+  border-radius: 5%;
+}
+.login-content .input{
+    width: 70%;
+}
+
+.icon{
+  color: lightgray;
+}
+
+.cre-log{
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  margin-top: 5%;
+  width: 80%;
+}
+
+.box-1{
+  margin-top: 6%;
+  margin-right: 3%;
+  flex:1;
+
+}
+.box-1 .new-acc{
+  font-size: 0.8rem;
+  text-decoration: none;
+  color: #007bff;
+  font-weight: bold;
+  flex:2;
+
+}
+.box-2{
+    flex: 1;
+    margin-left: 18%;
+}
+.box-2 .bttn{
+  padding: 10% 15%;
+  background-color: #007bff;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  width: 90%;
+
+}
+.box-2 .bttn:hover{
+  background-color: #4e72d4;
+}
+
+/* Sign-up page */
+
+.cpass{
+  color: gray;
+}
+.sign-up{
+  visibility: hidden;
+}
