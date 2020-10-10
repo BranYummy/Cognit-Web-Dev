@@ -31,9 +31,10 @@ p{
 }
 
 /* nav section */
+
 .title-link{
   text-decoration: none;
-  color:black;
+  color: black;
 }
 .navbar{
   padding-bottom: 2px;
