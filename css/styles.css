@@ -33,7 +33,7 @@ p{
 /* nav section */
 .title-link{
   text-decoration: none;
-
+  color:black;
 }
 .navbar{
   padding-bottom: 2px;
